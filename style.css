@@ -1,0 +1,26 @@
+header{
+    background-color: black;
+    color:white;
+    margin: 0;
+}
+
+nav{
+    display: inline;
+}
+
+#hc{
+    font-size: x-large;
+    border-left: 2px solid white;
+    padding: 0 0 3px 10px;
+    margin-left: 2px;
+    text-decoration: none;
+    color: white;
+}
+
+#hc:hover{
+    text-decoration:underline;
+}
+
+.abstract-logo{
+    display: inline-block;
+}
