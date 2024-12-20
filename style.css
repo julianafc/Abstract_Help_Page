@@ -1,20 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
 header{
+    height: 90px;
     background-color: black;
     color:white;
     margin: 0;
+    display:flex;
+    justify-content: space-between;
+
+    img{
+        width: 200px;
+        align-items: center;
+        vertical-align: middle;
+    }
 }
 
 nav{
-    display: inline;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
 }
 
 #hc{
-    font-size: x-large;
+    font-size: 35px;
+    font-weight: 500;
     border-left: 2px solid white;
     padding: 0 0 3px 10px;
     margin-left: 2px;
     text-decoration: none;
     color: white;
+    vertical-align: middle;
 }
 
 #hc:hover{
@@ -24,3 +45,5 @@ nav{
 .abstract-logo{
     display: inline-block;
 }
+
+main{}
