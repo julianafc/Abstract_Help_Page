@@ -1,7 +1,22 @@
+@font-face {
+    font-family: 'GT-America';
+    src: url('assets/font/GT-America/GT-America-Mono-Black-Trial.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT-America';
+    src: url('assets/font/GT-America/GT-America-Mono-Regular-Trial.otf') format('opentype');
+    font-weight: regular;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
   }
 
 header{
@@ -11,28 +26,32 @@ header{
     margin: 0;
     display:flex;
     justify-content: space-between;
+    padding: 0 90px;
+
+}
+
+#logo{
+    align-content: center;
+
+    #logo1{
+        max-width: 130px;
+        text-decoration: none;
+    }
 
     img{
-        width: 200px;
+        width: 130px;
         align-items: center;
         vertical-align: middle;
     }
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    
-}
-
 #hc{
-    font-size: 35px;
+    /* font-family: "GT-America"; */
+    font-size: 24px;
     font-weight: 500;
     border-left: 2px solid white;
     padding: 0 0 3px 10px;
-    margin-left: 2px;
+    margin-left: 5px;
     text-decoration: none;
     color: white;
     vertical-align: middle;
@@ -42,8 +61,34 @@ nav{
     text-decoration:underline;
 }
 
-.abstract-logo{
-    display: inline-block;
+nav{
+    align-content: center;
+    padding: 10px 20px;
+}
+#botao1, #botao2{
+    font-size: 24px;
+    width: auto;
+    height: 51px;
+    color: white;
+    border-radius: 8px;
+
 }
 
-main{}
+#botao1{
+    background-color: #191a1b;
+    border: solid 1px white;
+    padding: 6px 22px;
+}
+
+#botao2{
+    background-color: #4C5FD5;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    padding: 6px 35px;
+}
+
+#botao2:hover{
+    color: black;
+    background-color: white;
+}
