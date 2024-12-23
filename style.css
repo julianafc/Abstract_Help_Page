@@ -150,3 +150,35 @@ nav{
     width: 82px;
     margin-right: 20px;
 }
+
+#footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    height: auto;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+.f-lista{
+    margin-top: 20px;
+}
+
+.f-lista h2{
+    margin-bottom: 10px;
+}
+
+.f-lista img{
+    width: 150px;
+}
+
+.f-lista a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 3px;
+}
+
+.f-lista a:hover{
+    text-decoration: underline;
+}
