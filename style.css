@@ -172,7 +172,7 @@ input:focus {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 80px;
-    margin: 100px 70px;
+    margin: 180px 70px 120px;
 }
 
 .lm{
@@ -229,7 +229,7 @@ input:focus {
 }
 
 .f-lista img{
-    width: 150px;
+    width: 40px;
 }
 
 .f-lista a{
