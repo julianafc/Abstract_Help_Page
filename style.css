@@ -95,7 +95,7 @@ nav{
 
 #hcwh{
     background-color: #DADBF1;
-    padding-top: 80px;
+    padding-top: 100px;
     padding-bottom: 115px;
     display: flex;
     flex-direction: column;
@@ -103,9 +103,19 @@ nav{
     justify-content: center;
 
     h1{
-        font-size: 64px
+        font-size: 75px;
+        font-weight: lighter;
     }
 }
+
+#input{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#input input{}
 
 .info{
     display: flex;
