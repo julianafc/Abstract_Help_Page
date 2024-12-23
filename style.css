@@ -109,8 +109,10 @@ nav{
 
 .info{
     display: flex;
-    flex-direction: row;
-    margin: 50px 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 80px;
+    margin: 100px 70px;
 }
 
 .lm{
@@ -128,14 +130,23 @@ nav{
     }
 }
 
-.lm-img, .lm-text{
-    img{display: inline;}
-    display: inline;
+.lm-text {
+    h2{
+        font-size: x-large;
+        margin-bottom: 10px;
+    }
+
+    p{
+        font-size: x-large;
+        margin-bottom: 15px;
+    }
+
+    a{
+        font-size: larger;
+    }
 }
 
-.lm-img{
-    img{
-        width: 72px;
-        margin-right: 20px;
-    }
+.lm-img img {
+    width: 82px;
+    margin-right: 20px;
 }
