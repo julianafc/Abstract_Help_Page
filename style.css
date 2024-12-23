@@ -91,6 +91,7 @@ nav{
 #botao2:hover{
     color: black;
     background-color: white;
+    transition: all 0.5s ease;
 }
 
 #hcwh{
@@ -105,6 +106,7 @@ nav{
     h1{
         font-size: 75px;
         font-weight: lighter;
+        margin-bottom: 30px;
     }
 }
 
@@ -115,7 +117,55 @@ nav{
     justify-content: center;
 }
 
-#input input{}
+input::placeholder {
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+input:focus {
+    color: black !important;
+    font-size: 20px;
+    border-right: none;
+    outline: none;
+}
+
+#input button, #input input{
+    background-color: white;
+    border: solid 1px black;
+}
+
+#input input{
+    border-radius: 5px;
+    border-right: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width:661px;
+    height: 66px;
+    padding-left: 18px;
+}
+
+#input button {
+    border-radius: 5px;
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    height: 66px;
+    padding-right: 18px;
+    font-size: 30px;
+}
+
+#input:hover input, #input:hover button {
+    border: solid 1px #4C5FD5;
+    color: #4C5FD5;
+}
+
+#input:hover input {
+    border-right: none;
+}
+
+#input:hover button {
+    border-left: none;
+}
 
 .info{
     display: flex;
