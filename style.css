@@ -116,6 +116,7 @@ nav{
 .lm{
     width: 500px;
     margin: auto;
+    display: flex;
 
     a{
         text-decoration: none;
@@ -124,5 +125,17 @@ nav{
 
     a:hover{
         text-decoration: underline;
+    }
+}
+
+.lm-img, .lm-text{
+    img{display: inline;}
+    display: inline;
+}
+
+.lm-img{
+    img{
+        width: 72px;
+        margin-right: 20px;
     }
 }
