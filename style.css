@@ -71,7 +71,7 @@ nav{
     height: 51px;
     color: white;
     border-radius: 8px;
-
+    cursor: pointer;
 }
 
 #botao1{
