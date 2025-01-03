@@ -1,6 +1,6 @@
-# 🌐 Abstract Help Page 
+# 🙋 Abstract Help Page 
 
-Uma réplica de uma página de guia de ajuda para praticar e aprimorar habilidades em **HTML** e **CSS**. Esta página apresenta uma lista de perguntas mais comuns e fornece um link para entrar em contato diretamente com o suporte humano.
+Uma página de guia de ajuda criada para estudar e aprimorar habilidades em HTML e CSS. O projeto simula um ambiente funcional, apresentando uma lista de perguntas frequentes e um link para contato direto com o suporte humano.
 
 ## 📋 Funcionalidades
 
@@ -22,7 +22,7 @@ Este projeto tem como foco:
 - Entender a organização de conteúdo para páginas de ajuda.
 
 
-## 🌐 Demonstração
+## 🖼️ Demonstração
 
 Acesse o projeto através deste link: [Abstract Help Page](#).
 
