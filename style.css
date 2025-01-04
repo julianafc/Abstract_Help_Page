@@ -267,3 +267,17 @@ input:focus {
 .f-lista a:hover{
     text-decoration: underline;
 }
+
+#subir {
+    width: 80px;
+    background-color: #4C5FD5;
+    padding: 15px;
+    border-radius: 20px;
+    color: black;
+    position: sticky;
+    bottom: 20px;
+
+    a{
+        text-decoration: none;
+    }
+  }
