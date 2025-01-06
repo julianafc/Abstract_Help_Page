@@ -23,7 +23,8 @@ Este projeto tem como foco:
 
 
 ## 🖼️ Demonstração
+![FireShot Capture 007 - Abstract - 127 0 0 1](https://github.com/user-attachments/assets/293492ad-1595-43a2-b9ce-10ce37c82b6e)
 
-Acesse o projeto através deste link: [Abstract Help Page](#).
+Acesse o projeto através deste link: [Abstract Help Page](https://julianafc.github.io/Abstract_Help_Page/).
 
 #### 💡 Este projeto é apenas para fins educativos e não tem conexão com a página original.
