@@ -45,6 +45,15 @@ header{
     }
 }
 
+#logo1 img{
+    opacity: 1;
+  transition: opacity 0.2s ease;
+}
+
+#logo1 img:hover{
+    opacity: 0.8;
+}
+
 #hc{
     /* font-family: "GT-America"; */
     font-size: 24px;
@@ -269,15 +278,29 @@ input:focus {
 }
 
 #subir {
-    width: 80px;
+    width: 110px;
     background-color: #4C5FD5;
     padding: 15px;
-    border-radius: 20px;
+    border-radius: 30px;
     color: black;
-    position: sticky;
-    bottom: 20px;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
 
-    a{
-        text-decoration: none;
-    }
-  }
+#subir a{
+    text-decoration: none;
+}
+
+#subir img{
+    width: 20px;
+}
+
+#subir p{
+    padding-left: 5px;
+    font-weight: 600;
+}
