@@ -105,6 +105,13 @@ nav{
     transition: all 0.5s ease;
 }
 
+#nav-hidden{
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
 .menu-toggle {
     display: none;
     background: none;
@@ -317,11 +324,9 @@ input:focus {
 }
 
 @media (max-width: 898px){
-    #hcwh{
-        h1{
+    #hcwh h1{
             font-size: 45px;
         }
-    }
 
     #input{
         width: 90%;
@@ -332,7 +337,6 @@ input:focus {
       }
 
       header,nav{
-        /* margin: 0; */
         padding: 15px;
       }
 
@@ -341,8 +345,8 @@ input:focus {
         justify-content: space-evenly;
       }
 
-      #menu-toggle{
-        margin-left: 5px;
+      #barrinhas{
+        margin-left: 15px;
       }
 
       #nav-buttons{
