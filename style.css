@@ -121,6 +121,26 @@ nav{
     cursor: pointer;
   }
 
+#botoes-hidden{
+    display: none;
+    margin: 0;
+    border-top: 1px solid white;
+    padding: 50px;
+    background-color: black;
+}
+
+.botoes-hidden-s{
+    display: block;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+#botoes-linha{
+    border-bottom: 1px solid white;
+}
+
 #hcwh{
     background-color: #DADBF1;
     padding-top: 100px;
@@ -349,7 +369,13 @@ input:focus {
         margin-left: 15px;
       }
 
-      #nav-buttons{
-        display: none;
-      }
+      #nav-buttons {
+        display: none; 
+    }
+    
+    #botoes-hidden.show {
+        display: block;
+        justify-items: center;
+        align-items: center;
+    }
 }
