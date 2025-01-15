@@ -110,6 +110,8 @@ nav{
     background: none;
     border: none;
     cursor: pointer;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu-toggle {
@@ -132,13 +134,23 @@ nav{
 .botoes-hidden-s{
     display: block;
     width: 100%;
-    background-color: black;
     color: white;
     text-decoration: none;
+    font-size: 1.5rem;
 }
 
-#botoes-linha{
+#botoes-submit{
     border-bottom: 1px solid white;
+    padding-bottom: 23px;
+}
+
+#botoes-sign{
+    padding-top: 23px;
+}
+
+#botoes-lupa:hover{
+    font-size: 1.6em;
+    transition:  0.1s ease;
 }
 
 #hcwh{
@@ -362,7 +374,6 @@ input:focus {
 
       #nav-hidden{
         display: flex;
-        justify-content: space-evenly;
       }
 
       #barrinhas{
@@ -374,8 +385,10 @@ input:focus {
     }
     
     #botoes-hidden.show {
-        display: block;
-        justify-items: center;
-        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
     }
 }
