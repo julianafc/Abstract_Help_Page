@@ -289,8 +289,10 @@ input:focus {
 }
 
 #categorias{
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); /* autofit pra responsividade */
+    grid-template-rows: auto auto;
+    column-gap: 20px;
     width: calc(70% - 83px);
     margin-right: 80px;
     padding-bottom: 70px;
@@ -306,6 +308,8 @@ input:focus {
 
 .f-lista{
     margin-top: 20px;
+    height: 200px;
+    padding: 10px;
 }
 
 .f-lista h2{
@@ -389,5 +393,10 @@ input:focus {
         justify-content: center;
         align-content: center;
         text-align: center;
+    }
+
+    #copyright{
+        position: relative;
+        left: 5px;
     }
 }
