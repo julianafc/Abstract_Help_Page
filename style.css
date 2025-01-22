@@ -139,6 +139,10 @@ nav{
     font-size: 1.5rem;
 }
 
+.botoes-hidden-s:hover{
+    opacity: 0.7;
+}
+
 #botoes-submit{
     border-bottom: 1px solid white;
     padding-bottom: 23px;
